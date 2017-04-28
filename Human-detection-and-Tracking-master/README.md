@@ -1,6 +1,4 @@
-# Human detetion and Tracking
-## Introduction
-_In this project we have worked on the problem of human detection,face detection, face recognition and tracking an individual. Our project is capable of detecting a human and its face in a given video and storing Local Binary Pattern Histogram (LBPH) features of the detected faces.LBPH features are the key points extracted from an image which is used to recognize and categorize images. Once a human is detected in video, we have tracked that person assigning him a label. We have used the stored LBPH features of individuals to recognize them in any other videos. After scanning through various videos our program gives output like- person labeled as subject1 is seen in video taken by camera1, subject1 is seen in video by camera2. In this way we have tracked an individual by recognizing him/her in the video taken by multiple cameras. Our whole work is based on the application of machine learning and image processing with the help of [openCV](http://opencv.org)._**This code is built on opencv 3.1.1 and python 3.4**
+
 ## Requirements
 * **opencv**
 	* **Installation in linux:**
@@ -43,17 +41,7 @@ _In this project we have worked on the problem of human detection,face detection
 * The code was tested on two different machines to analyse performace. The input was 30fps 720p video.
 	* On a machine with AMD A4 dual-core processor we got an output of 4fps which is quite bad.
 	* on a machine with Intel i5 quad-core processor we got an output of 12fps.
-
-## Results
-![alt text](https://raw.githubusercontent.com/ITCoders/Human-detection-and-Tracking/master/results/g.jpg "Logo Title Text 1")
-![alt text](https://raw.githubusercontent.com/ITCoders/Human-detection-and-Tracking/master/results/k.jpg "Logo Title Text 1")
-![alt text](https://raw.githubusercontent.com/ITCoders/Human-detection-and-Tracking/master/results/k.jpg "Logo Title Text 1")
-![alt text](https://raw.githubusercontent.com/ITCoders/Human-detection-and-Tracking/master/results/o.jpg "Logo Title Text 1")
-## To do
-* improve the performance of the code
-* improve the accuracy of the code and reducing the false positive rate.
-* improve the face recognition accuracy to over 90 percent
-
-## Special Thanks to:
-* [Jignesh S. Bhatt](http://www.iiitvadodara.ac.in/faculty/jsb001.html) - Thank you for mentoring this project
-* [Kamal Awasthi](http://github.com/KamalAwasthi) - Helped in testing the code
+	
+## Source
+This work is originally from:
+https://github.com/ITCoders/Human-detection-and-Tracking
