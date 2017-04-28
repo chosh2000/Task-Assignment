@@ -1,0 +1,8 @@
+#!/bin/bash
+
+X=800
+COUNT=1280
+while [ $X -lt $COUNT ]; do
+    python main.py -v ./Video/test -r $X
+    X=$((X+40))
+done
